@@ -8,12 +8,12 @@
 Summary:	Proc::Forking - fork and deamonize
 Summary(pl):	Proc::Forking - funkcje do forkowania i demonizowania
 Name:		perl-Proc-Forking
-Version:	1.22
+Version:	1.24
 Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e85cf2e0a30763af4f221451ab29498e
+# Source0-md5:	22b2909f5d2bc56e13384537b03d3d2f
 URL:		http://search.cpan.org/dist/Proc-Forking/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
