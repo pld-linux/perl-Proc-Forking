@@ -7,17 +7,19 @@
 %define		pnam	Forking
 Summary:	Proc::Forking - fork and deamonize
 Summary(pl):	Proc::Forking - funkcje do forkowania i demonizowania
-Name:		perl-%{pdir}-%{pnam}
-Version:	1.4
+Name:		perl-Proc-Forking
+Version:	1.16
 Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	fc57356465c3eed871d9fb1c55f8cf5a
+# Source0-md5:	77990075139d81c5019d63f58dd08537
 URL:		http://search.cpan.org/dist/Proc-Forking/
-%{?with_tests:BuildRequires:	perl-Sys-Load}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Sys-Load
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
