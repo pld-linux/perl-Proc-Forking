@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Proc
-%define	pnam	Forking
+%define		pdir	Proc
+%define		pnam	Forking
 Summary:	Proc::Forking - fork and deamonize
 Summary(pl):	Proc::Forking - funkcje do forkowania i demonizowania
 Name:		perl-%{pdir}-%{pnam}
