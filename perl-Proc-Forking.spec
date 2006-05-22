@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Proc
 %define		pnam	Forking
-Summary:	Proc::Forking - fork and deamonize
+Summary:	Proc::Forking - fork and daemonize
 Summary(pl):	Proc::Forking - funkcje do forkowania i demonizowania
 Name:		perl-Proc-Forking
 Version:	1.38
