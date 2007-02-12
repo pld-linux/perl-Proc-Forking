@@ -6,7 +6,7 @@
 %define		pdir	Proc
 %define		pnam	Forking
 Summary:	Proc::Forking - fork and daemonize
-Summary(pl):	Proc::Forking - funkcje do forkowania i demonizowania
+Summary(pl.UTF-8):   Proc::Forking - funkcje do forkowania i demonizowania
 Name:		perl-Proc-Forking
 Version:	1.38
 Release:	1
@@ -27,9 +27,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Proc::Forking.pm module provides a set of tool to fork and
 daemonize. The module fork a function code.
 
-%description -l pl
-Modu³ Proc::Forking.pm dostarcza zbiór narzêdzi do forkowania i
-demonizowania. Modu³ rozga³êzia kod funkcji.
+%description -l pl.UTF-8
+ModuÅ‚ Proc::Forking.pm dostarcza zbiÃ³r narzÄ™dzi do forkowania i
+demonizowania. ModuÅ‚ rozgaÅ‚Ä™zia kod funkcji.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
