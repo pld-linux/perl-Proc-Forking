@@ -6,7 +6,7 @@
 %define		pdir	Proc
 %define		pnam	Forking
 Summary:	Proc::Forking - fork and daemonize
-Summary(pl.UTF-8):   Proc::Forking - funkcje do forkowania i demonizowania
+Summary(pl.UTF-8):	Proc::Forking - funkcje do forkowania i demonizowania
 Name:		perl-Proc-Forking
 Version:	1.38
 Release:	1
