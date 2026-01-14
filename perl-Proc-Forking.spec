@@ -8,7 +8,7 @@ Summary:	Proc::Forking - fork and daemonize
 Summary(pl.UTF-8):	Proc::Forking - funkcje do forkowania i demonizowania
 Name:		perl-Proc-Forking
 Version:	1.40
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
